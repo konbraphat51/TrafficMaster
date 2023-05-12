@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | 2Ddefault</title>
+    <title>Traffic Master | トラフィックマスター</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,8 +20,11 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">2Ddefault</div>
+        <div id="unity-build-title">TrafficMaster</div>
       </div>
+    </div>
+    <div id = "discription">
+      <img src = "五月祭ポスター藤井研_page-0001.jpg">
     </div>
     <script>
       var container = document.querySelector("#unity-container");
@@ -63,7 +66,7 @@
         codeUrl: buildUrl + "/TrafficMasterPrototype.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "2Ddefault",
+        productName: "Traffic Master",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -116,4 +119,16 @@
       document.body.appendChild(script);
     </script>
   </body>
+  <style>
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    #discription{
+      position: absolute;
+      top: 800px;
+    }
+
+  </style>
 </html>
