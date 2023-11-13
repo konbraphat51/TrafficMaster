@@ -1,2 +1,3 @@
 # TrafficMasterPrototype
-https://konbraphat51.github.io/TrafficMasterPrototype/
+
+https://konbraphat51.github.io/TrafficMaster/
